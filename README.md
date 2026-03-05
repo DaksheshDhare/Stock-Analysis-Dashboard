@@ -1,34 +1,35 @@
-# Stock-Analysis-Dashboard
+**SuperStore Sales Analysis**
 
-This project is an interactive stock analysis dashboard built using Streamlit, Plotly, yFinance, and machine learning models. It allows users to explore historical stock data, view live prices, and get future price predictions using multiple regression models in a visually rich and user-friendly interface.
+This project will analyse retail sales data on a SuperStore dataset to determine some of the important business information in the data that includes regional performance, trends in profits, and distribution of sales. The patterns in sales, profit and the customer segments are visualised in the form of interactive Power BI dashboard to understand the trends.
 
-Features
--Select from popular stocks (Amazon, Apple, Google, Meta, Microsoft, Netflix, Nvidia).
--View one-year historical stock prices with interactive Plotly charts:
--Line chart of closing prices
--Candlestick price chart
--Volume bar chart
--Moving average and daily returns
--Machine Learning predictions from Linear Regression, Random Forest, SVM, and AdaBoost models.
--Side-by-side chart layout and large format charts for better visualization.
--Investment tutorials and a market glossary for educational support.
--User-friendly UI with collapsible sections and metric highlights.
+Project Files:
+-SuperStore Analysis.pbix
+-Power BI dashboard with all the visualisations, measures and interactive reports.
+-SuperStore Analysis.xlsx
+-Analysis data set, such as sales, profit and region data.
 
-Installation
--pip install streamlit yfinance plotly scikit-learn pandas numpy
+Tools & Technologies:
+-Power BI -Creation of data visualisation and dashboard.
+-Microsoft excel - Pre-processing and data storage.
+-Techniques of Data Analysis - Aggregations, filtering and regional performance comparison.
 
-Run the dashboard locally with:
--streamlit run app.py
+Key Insights:
+The dashboard helps analyze the following:
+-Sales and profit by region
+-General trends in profitability.
+-Contribution towards total revenue, by region.
+-Sales vs profit performance comparison.
 
-Code Structure
--fetch_live_stock_data(): Retrieves daily stock data for one year using Yahoo Finance.
--get_live_price(): Gets the latest closing stock price.
--get_prediction_models(): Trains four models on historical closing prices.
--generate_future_predictions(): Predicts closing prices for future days.
--generate_stock_plots(): Creates Plotly charts for exploration.
--main(): Handles Streamlit UI, input selection, and rendering charts & info.
+Features:
+-Sales performance exploratory interactive dashboard.
+-Revenue and profit regional analysis.
+-Well illustrated important business measures
+-Decision making-comprehensible insights.
 
-Key Points
--The charts are interactive and responsive.
--The ML models help visualize potential future price trends, useful for analysis but not financial advice.
--The app is easily extensible for additional stocks, indicators, or data sources.
+How to Use:
+-Download the repository.
+-Power BI Desktop.pbix Open SuperStore Analysis.
+-Analyse the data on dashboard and use philtres to explore data.
+
+Purpose of the Project:
+-This project shows the data analysis process as well as data visualisation with the help of the power bi tool and aimed at deriving significant conclusions on the basis of business sales data.
