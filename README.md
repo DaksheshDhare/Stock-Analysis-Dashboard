@@ -1,35 +1,62 @@
-**SuperStore Sales Analysis**
+# 📈 Stock Analysis & Price Prediction Dashboard
 
-This project will analyse retail sales data on a SuperStore dataset to determine some of the important business information in the data that includes regional performance, trends in profits, and distribution of sales. The patterns in sales, profit and the customer segments are visualised in the form of interactive Power BI dashboard to understand the trends.
+An interactive Stock Analysis Dashboard built using **Python** and **Streamlit** that visualizes historical stock data and predicts future prices using machine learning models.
 
-Project Files:
--SuperStore Analysis.pbix
--Power BI dashboard with all the visualisations, measures and interactive reports.
--SuperStore Analysis.xlsx
--Analysis data set, such as sales, profit and region data.
+---
 
-Tools & Technologies:
--Power BI -Creation of data visualisation and dashboard.
--Microsoft excel - Pre-processing and data storage.
--Techniques of Data Analysis - Aggregations, filtering and regional performance comparison.
+## 🚀 Project Overview
 
-Key Insights:
-The dashboard helps analyze the following:
--Sales and profit by region
--General trends in profitability.
--Contribution towards total revenue, by region.
--Sales vs profit performance comparison.
+This project fetches real-time and historical stock market data using the **yfinance** library and provides visual insights through interactive charts.  
 
-Features:
--Sales performance exploratory interactive dashboard.
--Revenue and profit regional analysis.
--Well illustrated important business measures
--Decision making-comprehensible insights.
+The application also implements **Simple Linear Regression** and **Random Forest Regression** models to predict future stock price trends based on historical data.
 
-How to Use:
--Download the repository.
--Power BI Desktop.pbix Open SuperStore Analysis.
--Analyse the data on dashboard and use philtres to explore data.
+Users can analyze stock performance, explore trends, and view machine learning-based predictions through a simple dashboard interface.
 
-Purpose of the Project:
--This project shows the data analysis process as well as data visualisation with the help of the power bi tool and aimed at deriving significant conclusions on the basis of business sales data.
+---
+
+## 🧠 Machine Learning Models
+
+**1. Simple Linear Regression**  
+Used to identify linear relationships in stock price trends and generate baseline predictions.
+
+**2. Random Forest Regression**  
+An ensemble learning model that improves prediction accuracy by combining multiple decision trees and capturing non-linear patterns.
+
+---
+
+## 📊 Features
+
+- Fetches live and historical stock data
+- Interactive stock price visualization
+- Historical trend analysis
+- Stock price prediction using ML models
+- Comparison of prediction models
+- User-friendly dashboard interface
+
+---
+
+## 🛠️ Technologies Used
+
+**Programming Language**
+- Python
+
+**Libraries**
+- Pandas
+- NumPy
+- Matplotlib
+- Plotly
+- Scikit-learn
+- yfinance
+
+**Framework**
+- Streamlit
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/stock-analysis-dashboard.git
+cd stock-analysis-dashboard
